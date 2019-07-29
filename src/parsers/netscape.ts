@@ -81,7 +81,7 @@ const processDir = (dir: any, level: number) => {
   const children = dir.childNodes;
   let menuRoot: Bookmark = null;
 
-  const items = [];
+  const items: Bookmark[] = [];
 
   for (let i = 0; i < children.length; i++) {
     const child = children[i];
