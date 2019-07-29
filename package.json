@@ -1,0 +1,35 @@
+{
+  "name": "node-bookmarks-parser",
+  "version": "1.0.0",
+  "description": "Parse bookmarks files",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "files": [
+    "build/"
+  ],
+  "scripts": {
+    "test": "mocha test",
+    "build": "tsc -p .",
+    "watch": "tsc -p . --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "sentialx",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentialx/node-bookmarks-parser.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jsdom": "^15.1.1"
+  },
+  "devDependencies": {
+    "@types/jsdom": "^12.2.4",
+    "mocha": "^6.2.0",
+    "prettier": "^1.18.2",
+    "should": "^13.2.3",
+    "tslint": "^5.18.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.5.3"
+  }
+}
