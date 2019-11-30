@@ -30,6 +30,7 @@
     ]
   },
   {
+    "type": "folder",
     "title": "Menu",
     "children": [
       {
