@@ -99,6 +99,7 @@ const processDir = ($: CheerioStatic, dir: any, level: number) => {
       if (level === 0 && !itemData.nsRoot) {
         if (!menuRoot) {
           menuRoot = {
+            type: "folder",
             title: 'Menu',
             children: [],
             nsRoot: 'menu',
